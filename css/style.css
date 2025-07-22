@@ -35,6 +35,10 @@ a{
     color: white;
     padding-right: 10px;
 }
+.categories{
+    width: 300px;
+}
+
 .categories a{
     font-weight: bold;
 }
@@ -48,6 +52,17 @@ a{
     justify-self: center;
     align-self: center;
 }
+#nav-icons{
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+#nav-icons a{
+    padding: 0 0 0 10px;
+}
+
+
+
 /* ---------main------------- */
 main{
     width: 100%;
@@ -73,6 +88,9 @@ main{
 img{
  width: fit-content;
 }
+
+
+
 
 /* ---------footer--------- */
 footer{
