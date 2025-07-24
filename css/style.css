@@ -82,17 +82,12 @@ main{
     flex-flow: row wrap;
 }
 
-.static-img{
-    display: block;
-}
 .hover-img{
     display: none;
     position: absolute;
     top: 0;
 }
-.card:hover .static-img{
-    display: none;
-}
+
 .card:hover .hover-img{
     display: block;
 }
