@@ -81,7 +81,27 @@ main{
     display: flex;
     flex-flow: row wrap;
 }
+
+.static-img{
+    display: block;
+}
+.hover-img{
+    display: none;
+    position: absolute;
+    top: 0;
+}
+.card:hover .static-img{
+    display: none;
+}
+.card:hover .hover-img{
+    display: block;
+}
+
+img{
+    max-width: 100%;
+}
 .like{
+    cursor: pointer;
     position: absolute;
     font-size: 38px;
     padding: 10px 20px;
@@ -91,7 +111,7 @@ main{
 }
 .label-container{
     position: absolute;
-    top: 630px;
+    top: 80%;
     display: flex;
     flex-flow: row;
     gap: 4px;
@@ -106,17 +126,6 @@ main{
 }
 .sostenibilita{
     background-color: green;
-}
-.card img{ 
-    top: 0;
-    display: block;
-    max-width: 100%;
-}
-
-.cardinfo{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
 }
 .saleprice{
     font-weight: bold;
